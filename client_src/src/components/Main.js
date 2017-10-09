@@ -5,13 +5,11 @@ import MeetupDetails from './MeetupDetails';
 import About from './About';
 import MeetupAdd from './MeetupAdd';
 import MeetupEdit from './MeetupEdit';
-import Login from './Login';
 
 const Main = () => (
   <main>
     <Switch>
       <Route exact path ='/' component={Meetups} />
-      <Route exact path ='/login' component={Login} />
       <Route exact path ='/about' component={About} />
       <Route exact path='/meetups/add' component={MeetupAdd} />
       <Route exact path='/meetups/edit/:id' component={MeetupEdit} />
