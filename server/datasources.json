@@ -6,11 +6,11 @@
   "mongoDS": {
     "host": "ds163294.mlab.com",
     "port": 63294,
-    "url": "mongodb://admin:Watchyourback1!@ds163294.mlab.com:63294/meetups",
-    "database": "meetups",
-    "password": "Watchyourback1!",
+    "url": "DATABASE_URL_LOGIN",
+    "database": "DATABASE",
+    "password": "PASSWORD",
     "name": "mongoDS",
-    "user": "admin",
+    "user": "USER",
     "connector": "mongodb"
   }
 }
